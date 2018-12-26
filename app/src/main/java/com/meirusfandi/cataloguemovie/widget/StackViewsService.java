@@ -1,0 +1,1 @@
+package com.meirusfandi.cataloguemovie.widget;import android.content.Intent;import android.widget.RemoteViewsService;public class StackViewsService extends RemoteViewsService{    @Override    public RemoteViewsFactory onGetViewFactory(Intent intent) {        return new StackViewsFactory(this.getApplicationContext(), intent);    }}
